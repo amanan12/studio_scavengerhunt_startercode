@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    font-family: sans serif font;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+h2{
+    text-align: center;
+    font-family: sans serif font;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+body{
+    background-color: #b38b6d;
+}
+@keyframes slidein {
+  from {
+    color: black;
+  }
+
+  to {
+    color: red;
+  }
+}
